@@ -34,8 +34,13 @@ video가 종료될 경우 이벤트 설정
 
 CSS 설정
 
+.contents:nth-child(1) .videoFrame{
+    top: 220px;
+}
 
-
+기타 CSS
+left: 50%;
+transform: translateX(-50%) scale(1);
 
 
 

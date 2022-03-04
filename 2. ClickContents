@@ -4,46 +4,46 @@ js 설정 -------
 
 clickCon = new myclickContents(_page);
 clickCon.init({
-  groupName: 'clickContent',
-  items: 3,
-  type: ['def', '2']
-})
+    groupName: 'clickContent',
+    items: 3,
+    type: ['def', '2'],
+});
 
 option -------------------------------------------------------------------------------
 
 type: [유형, value1, value2]
-  기본 타입을 설정
+    기본 타입을 설정
   
-  type: ['def', '2']
-    기본 클릭 오브젝트
-    1: 예시
-    2: 물음표
+    type: ['def', '2']
+        기본 클릭 오브젝트
+        1: 예시
+        2: 물음표
   
-  type: ['cho', '1', choTxt]
-    초성 클릭 오브젝트
-    1: 기본 유형
-    2: 변형 유형
-    var choTxt = ["고장"]
+    type: ['cho', '1', choTxt]
+        초성 클릭 오브젝트
+        1: 기본 유형
+        2: 변형 유형
+        var choTxt = ["고장"]
 
-  type: ['step', '1']
-    순서대로 클릭 유도
+    type: ['step', '1']
+        순서대로 클릭 유도
 
-  type: ['ani', '1']
-    ani유형 클릭
+    type: ['ani', '1']
+        ani유형 클릭
 
 showItem: 'true'
-  클릭 오브젝트 사라지면 나타나는 오브젝트 사용 여부
+    클릭 오브젝트 사라지면 나타나는 오브젝트 사용 여부
   
 ansbtn: 'hide'
-  모두보기 버튼 생성 유무
+    모두보기 버튼 생성 유무
   
 ansEffect: 'anschk_o'
-  모두보기 버튼 유형 및 효과음 변경
+    모두보기 버튼 유형 및 효과음 변경
 
 zIndex: ['popup_btn', '1']
-  클릭 오브젝트 뒤에 숨은 팝업을 클릭 가능하게
-  'popup_btn' 타겟 오브젝트 클래스명
-  1: 해당하는 클릭 오브젝트 순서번호
+    클릭 오브젝트 뒤에 숨은 팝업을 클릭 가능하게
+    'popup_btn' 타겟 오브젝트 클래스명
+    1: 해당하는 클릭 오브젝트 순서번호
   
 
 

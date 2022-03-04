@@ -1,6 +1,7 @@
 ClickContents
 
-js 설정
+js 설정 -------
+
 clickCon = new myclickContents(_page);
 clickCon.init({
   groupName: 'clickContent',
@@ -10,22 +11,25 @@ clickCon.init({
 
 option -------------------------------------------------------------------------------
 
-type: ['def', '2']
-  기본 클릭 오브젝트
-  1: 예시
-  2: 물음표
+type: [유형, value1, value2]
+  기본 타입을 설정
   
-type: ['cho', '1', choTxt]
-  초성 클릭 오브젝트
-  1: 기본 유형
-  2: 변형 유형
-  var choTxt = ["고장"]
+  type: ['def', '2']
+    기본 클릭 오브젝트
+    1: 예시
+    2: 물음표
+  
+  type: ['cho', '1', choTxt]
+    초성 클릭 오브젝트
+    1: 기본 유형
+    2: 변형 유형
+    var choTxt = ["고장"]
 
-type: ['step', '1']
-  순서대로 클릭 유도
+  type: ['step', '1']
+    순서대로 클릭 유도
 
-type: ['ani', '1']
-  ani유형 클릭
+  type: ['ani', '1']
+    ani유형 클릭
 
 showItem: 'true'
   클릭 오브젝트 사라지면 나타나는 오브젝트 사용 여부

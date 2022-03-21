@@ -25,10 +25,10 @@ type: [유형, value1, value2]
         2: 변형 유형
         var choTxt = ["고장"]
 
-    type: ['step', 'toggle']
+    type: ['step', 'none'],
         순서대로 클릭 유도
-        toggle: 토글 클릭
         none: 1회성 클릭
+        toggle: 토글 클릭
 
     type: ['ani', '1']
         ani유형 클릭
@@ -47,6 +47,34 @@ zIndex: ['popup_btn', '1']
     'popup_btn' 타겟 오브젝트 클래스명
     1: 해당하는 클릭 오브젝트 순서번호
   
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+CSS 설정
+
+기본
+.contents:nth-child(1) .clickItem{
+    top: 500px;
+    left: 100px;
+    width: 460px;
+    height: 100px;
+    border: 1px solid red;
+}
+
+컬러 변경
+.contents:nth-child(1) .clickContent .clickItem .innerItem{
+    background-color: #ececec;
+}
+
+아이콘 크기 변경
+.contents:nth-child(1) .clickContent .clickItem .innerItem{
+    transform: translate(-50%, -50%) scale(1);
+}
+
+
 
 
 

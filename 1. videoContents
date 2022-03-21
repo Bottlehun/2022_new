@@ -6,6 +6,7 @@ videoCon = new videoContents(_page);
 videoCon.init({
     object: 'videoFrame',
     fileName: 'dummy.mp4',
+    poster: 'true',
 });
 
 option -------------------------------------------------------------------------
@@ -18,6 +19,9 @@ object: 'videoFrame'
 fileName: 'soc41_302_02.mp4'
     해당 파일명(mp3와 혼용 가능함)
     mp4파일은 mp4폴더에, mp3파일은 mp3폴더에 넣어야 함.
+
+poster: 'true'
+    메인 이미지 유무 (확장자는 .
 
 addclass: 'adomode'
     플레이어를 음성 재생용으로 설정할경우 사용

@@ -74,7 +74,12 @@ CSS 설정
     transform: translate(-50%, -50%) scale(1);
 }
 
-
+초성
+.contents:nth-child(1) .clickItem{
+    top: 500px;
+    left: 100px;
+    width: 460px;
+}
 
 
 
